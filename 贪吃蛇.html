@@ -178,7 +178,7 @@
         Snake.prototype.border = function(){
 
             if(this.body[0][0] < 0 || this.body[0][0] > 39 || this.body[0][1] < 0 || this.body[0][1] > 25 ){
-                alert("垃圾！你死了！")
+                alert("你死了！")
 
                 window.clearInterval(timer)
             }
@@ -187,7 +187,7 @@
         Snake.prototype.suicide = function(){
             for(var  i = this.body.length-1 ; i >= 4; i--){
                 if( this.body[0][0] == this.body[i][0] && this.body[0][1] == this.body[i][1]){
-                    alert("饿了？吃屎去！")
+                    alert("饿了？")
 
                     window.clearInterval(timer)
                 }
