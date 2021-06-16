@@ -1,0 +1,1 @@
+.van-cell:after{position:absolute;box-sizing:border-box;content:" ";pointer-events:none;right:4.26667vw;bottom:0;left:4.26667vw;border-bottom:1px solid #000;transform:scaleY(.5)}.van-cell--borderless:after,.van-cell:last-child:after{display:block}.row[data-v-d6fd5970]{display:flex;overflow:hidden}
